@@ -5,7 +5,6 @@ export const Button = ({ setProduct, produkt, productToBuy }) => {
     <StyledButton
       onClick={() => {
         setProduct(produkt);
-        console.log(productToBuy);
       }}
     >
       Buy
